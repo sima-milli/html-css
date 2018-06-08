@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+}
+h1 {
+    font-family: 'Ovo', serif;
+}
+p, ul {
+    opacity: .8;
+}
+header p {
+    line-height: 10px; 
+}
+header {
+    background-image: url('images/Pattern.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+header a {
+    /* color: #BDC3C7; */
+    color: #6C7A89;
+    font-size: 25px;
+    padding: 5px;
+    line-height: 5px;
+}
+header a:hover {
+    color: #446CB3;
+}
+header img {
+    width: 250px;
+    height: 230px;
+    margin: 10px;
+    /* margin: auto; */
+    border-radius: 50%;
+    border: 5px solid #ECECEC;
+    box-shadow: 10px 10px 15px rgb(143, 141, 141);
+}
+.main {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+section, details {
+    margin: 10px;
+    padding: 10px;
+}
+.qualification {
+    /* margin: 10px;
+    padding: 10px; */
+    flex: 2;
+
+}
+.side-skills-bar {
+    padding: 10px;
+    /* background-color: #15aabf; */
+    /* background-color: #2574A9; */
+    /* background-color: #3498DB; */
+    background-color: #9B59B6;
+    flex: 1;
+}
